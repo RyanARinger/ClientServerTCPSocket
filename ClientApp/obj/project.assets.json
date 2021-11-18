@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VSProjects\\ClientApp\\ClientApp.csproj",
+      "projectUniqueName": "F:\\ClientServerTCPSocket\\ClientApp\\ClientApp.csproj",
       "projectName": "ClientApp",
-      "projectPath": "F:\\VSProjects\\ClientApp\\ClientApp.csproj",
+      "projectPath": "F:\\ClientServerTCPSocket\\ClientApp\\ClientApp.csproj",
       "packagesPath": "C:\\Users\\ringe\\.nuget\\packages\\",
-      "outputPath": "F:\\VSProjects\\ClientApp\\obj\\",
+      "outputPath": "F:\\ClientServerTCPSocket\\ClientApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

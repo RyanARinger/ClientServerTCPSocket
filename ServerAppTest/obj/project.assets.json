@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VSProjects\\ServerAppTest\\ServerAppTest.csproj",
+      "projectUniqueName": "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
       "projectName": "ServerAppTest",
-      "projectPath": "F:\\VSProjects\\ServerAppTest\\ServerAppTest.csproj",
+      "projectPath": "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
       "packagesPath": "C:\\Users\\ringe\\.nuget\\packages\\",
-      "outputPath": "F:\\VSProjects\\ServerAppTest\\obj\\",
+      "outputPath": "F:\\ClientServerTCPSocket\\ServerAppTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

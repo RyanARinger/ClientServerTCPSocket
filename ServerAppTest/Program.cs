@@ -28,6 +28,9 @@ namespace ServerAppTest
             while (true)
             {
                 const int bytesize = 1024 * 1024;
+                DummyMaker dm = new DummyMaker("file.txt");
+                dm.MakeFile(1000000L);
+
 
                 string message = null;
                 byte[] buffer = new byte[bytesize];
@@ -41,9 +44,9 @@ namespace ServerAppTest
                 // Save the data sent by the client;  
                 Person person = JsonConvert.DeserializeObject<Person>(message); // Deserialize  
                 Console.WriteLine(person.Name);
-                byte[] bytes = System.Text.Encoding.Unicode.GetBytes("Thank you for your message, " + person.Name);
-                sender.GetStream().Write(bytes, 0, bytes.Length); // Send the response  
-                sendMessage(bytes, sender);
+                //byte[] bytes = System.Text.Encoding.Unicode.GetBytes("Thank you for your message, " + person.Name);
+                //sender.GetStream().Write(bytes, 0, bytes.Length); // Send the response  
+                sendMessage(dm.getBytes(), sender);
             }
         }
         private static string cleanMessage(byte[] bytes)
@@ -74,9 +77,7 @@ namespace ServerAppTest
         }
         private static void sendMessage(byte[] bytes, TcpClient client)
         {
-            client.GetStream()
-                .Write(bytes, 0,
-                bytes.Length); // Send the stream  
+            client.GetStream().Write(bytes, 0, bytes.Length); // Send the stream  
         }
     }
 }
