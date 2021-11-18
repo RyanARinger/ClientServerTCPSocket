@@ -21,7 +21,7 @@ namespace ClientApp
         private static byte[] sendMessage(byte[] messageBytes)
         {
             byte[] responseBytes;
-            const int bytesize = 1024 * 1024;
+            const long bytesize = 1024 * 1024;
             try // Try connecting and send the message bytes  
             {
                 System.Net.Sockets.TcpClient client = new System.Net.Sockets.TcpClient("192.168.1.220", 1234); // Create a new connection  
@@ -37,7 +37,9 @@ namespace ClientApp
 
                 // Receive the stream of bytes  
                 stream.Read(responseBytes, 0, responseBytes.Length);
-                Console.WriteLine(Encoding.Default.GetString(messageBytes));
+                //Console.WriteLine(Encoding.Default.GetString(messageBytes));
+                Console.WriteLine(Encoding.Default.GetString(responseBytes));
+                Console.WriteLine(responseBytes.LongLength);
 
                 // Clean up  
                 stream.Dispose();
