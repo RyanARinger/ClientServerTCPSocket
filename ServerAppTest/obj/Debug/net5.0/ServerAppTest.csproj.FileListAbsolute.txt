@@ -1,0 +1,17 @@
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.exe
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.deps.json
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.runtimeconfig.json
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.runtimeconfig.dev.json
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.dll
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ref\ServerAppTest.dll
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\ServerAppTest.pdb
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.csproj.AssemblyReference.cache
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.AssemblyInfoInputs.cache
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.AssemblyInfo.cs
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.csproj.CoreCompileInputs.cache
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.dll
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ref\ServerAppTest.dll
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.pdb
+F:\VSProjects\ServerAppTest\obj\Debug\net5.0\ServerAppTest.genruntimeconfig.cache
+F:\VSProjects\ServerAppTest\bin\Debug\net5.0\Newtonsoft.Json.dll
