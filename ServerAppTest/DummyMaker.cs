@@ -10,9 +10,11 @@ namespace ServerAppTest
     class DummyMaker
     {
         public string Filename { get; set; }
+        public FileStream Fs { get; set; }
         public DummyMaker(string filename)
         {
             this.Filename = filename;
+            this.Fs = File.Create(this.Filename);
             
         }
         public void MakeFile(long nBytes)
@@ -21,16 +23,20 @@ namespace ServerAppTest
             {
                 nBytes = 1000000000L;
             }
-            FileStream fs = new FileStream(this.Filename, FileMode.CreateNew);
-            fs.Seek(nBytes, SeekOrigin.Begin);
-            fs.WriteByte(0);
-            fs.Close();
+            this.Fs.Seek(nBytes, SeekOrigin.Begin);
+            this.Fs.WriteByte(0);
+            this.Fs.Close();
         }
 
         public byte[] getBytes()
         {
             return File.ReadAllBytes(this.Filename);
 
+        }
+
+        ~DummyMaker()
+        {
+            this.Fs.Close();
         }
     }
 }

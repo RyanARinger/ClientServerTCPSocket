@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sDO79ie2rb3X9mf/8SK6Iaa364nOXYuqOqjw59xs8vZIEKQDEsPVPKnh4Mip6EIJUcFBUIb6Oa2iLeBDiNILEg==",
+  "dgSpecHash": "ligm2HM1rGi5TxMcdQzxyHu+/hFdpEHs15vZisMGT38ml/lZJlmZZTgmqVCDqoAGma8/QTiIhjT5qUEm4VZ7KQ==",
   "success": true,
-  "projectFilePath": "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
+  "projectFilePath": "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ringe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

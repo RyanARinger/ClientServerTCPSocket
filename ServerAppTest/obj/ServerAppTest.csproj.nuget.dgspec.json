@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj": {}
+    "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj": {}
   },
   "projects": {
-    "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj": {
+    "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
+        "projectUniqueName": "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
         "projectName": "ServerAppTest",
-        "projectPath": "F:\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
+        "projectPath": "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\ServerAppTest.csproj",
         "packagesPath": "C:\\Users\\ringe\\.nuget\\packages\\",
-        "outputPath": "F:\\ClientServerTCPSocket\\ServerAppTest\\obj\\",
+        "outputPath": "C:\\Users\\ringe\\Desktop\\ClientServerTCPSocket\\ServerAppTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
