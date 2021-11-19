@@ -21,26 +21,28 @@ namespace ClientApp
         private static byte[] sendMessage(byte[] messageBytes)
         {
             byte[] responseBytes;
-            const long bytesize = 1024 * 1024;
+            const long bytesize = 1000000000L;
             try // Try connecting and send the message bytes  
             {
                 System.Net.Sockets.TcpClient client = new System.Net.Sockets.TcpClient("192.168.1.220", 1234); // Create a new connection  
                 NetworkStream stream = client.GetStream();
 
-                stream.Write(messageBytes, 0, messageBytes.Length); // Write the bytes  
-                Console.WriteLine("================================");
-                Console.WriteLine("=   Connected to the server    =");
-                Console.WriteLine("================================");
-                Console.WriteLine("Waiting for response...");
+                for (int i = 0; i < 10; i++)
+                {
+                    stream.Write(messageBytes, 0, messageBytes.Length); // Write the bytes  
+                    Console.WriteLine("================================");
+                    Console.WriteLine("=   Connected to the server    =");
+                    Console.WriteLine("================================");
+                    Console.WriteLine("Waiting for response...");
 
-                responseBytes = new byte[bytesize]; // Clear the message   
+                    responseBytes = new byte[bytesize]; // Clear the message   
 
-                // Receive the stream of bytes  
-                stream.Read(responseBytes, 0, responseBytes.Length);
-                //Console.WriteLine(Encoding.Default.GetString(messageBytes));
-                Console.WriteLine(Encoding.Default.GetString(responseBytes));
-                Console.WriteLine(responseBytes.LongLength);
-
+                    // Receive the stream of bytes  
+                    stream.Read(responseBytes, 0, responseBytes.Length);
+                    //Console.WriteLine(Encoding.Default.GetString(messageBytes));
+                    //Console.WriteLine(Encoding.Default.GetString(responseBytes));
+                    Console.WriteLine(responseBytes.LongLength);
+                }
                 // Clean up  
                 stream.Dispose();
                 client.Close();

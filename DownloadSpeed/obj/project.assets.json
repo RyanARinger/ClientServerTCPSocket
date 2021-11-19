@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VSProjects\\DownloadSpeed\\DownloadSpeed.csproj",
+      "projectUniqueName": "F:\\ClientServerTCPSocket\\DownloadSpeed\\DownloadSpeed.csproj",
       "projectName": "DownloadSpeed",
-      "projectPath": "F:\\VSProjects\\DownloadSpeed\\DownloadSpeed.csproj",
+      "projectPath": "F:\\ClientServerTCPSocket\\DownloadSpeed\\DownloadSpeed.csproj",
       "packagesPath": "C:\\Users\\ringe\\.nuget\\packages\\",
-      "outputPath": "F:\\VSProjects\\DownloadSpeed\\obj\\",
+      "outputPath": "F:\\ClientServerTCPSocket\\DownloadSpeed\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
