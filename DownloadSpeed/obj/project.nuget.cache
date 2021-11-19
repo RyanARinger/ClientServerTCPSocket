@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fklykpNTKxIrxMm8zpsdeChznGH4y9ZzV8/2olWbQo+kUZv+az2m+8xlh+2dzseExV6XTwdSOiAobPlxJ6Nonw==",
+  "dgSpecHash": "YlB6yYnEdzSuE/f74pzjWHF9lREx7GM3vOTQAZ1MaQ7tOSeYaDy+N+cV2OtvVIGA542Sd5gd25L+cbepJLrCKA==",
   "success": true,
-  "projectFilePath": "F:\\VSProjects\\DownloadSpeed\\DownloadSpeed.csproj",
+  "projectFilePath": "F:\\ClientServerTCPSocket\\DownloadSpeed\\DownloadSpeed.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
