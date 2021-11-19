@@ -1,0 +1,16 @@
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.exe
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.deps.json
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.runtimeconfig.json
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.runtimeconfig.dev.json
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.dll
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\ref\DownloadSpeed.dll
+F:\VSProjects\DownloadSpeed\bin\Debug\net5.0\DownloadSpeed.pdb
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.csproj.AssemblyReference.cache
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.GeneratedMSBuildEditorConfig.editorconfig
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.AssemblyInfoInputs.cache
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.AssemblyInfo.cs
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.csproj.CoreCompileInputs.cache
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.dll
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\ref\DownloadSpeed.dll
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.pdb
+F:\VSProjects\DownloadSpeed\obj\Debug\net5.0\DownloadSpeed.genruntimeconfig.cache
