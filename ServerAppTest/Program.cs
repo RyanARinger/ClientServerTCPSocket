@@ -29,7 +29,7 @@ namespace ServerAppTest
             {
                 const int bytesize = 1024 * 1024;
                 DummyMaker dm = new DummyMaker("file.txt");
-                dm.MakeFile(10000000L);
+                dm.MakeFile(100000000L);
 
 
                 string message = null;
