@@ -24,7 +24,7 @@ namespace ClientApp
             const long bytesize = 1000000000L;
             try // Try connecting and send the message bytes  
             {
-                System.Net.Sockets.TcpClient client = new System.Net.Sockets.TcpClient("192.168.1.220", 1234); // Create a new connection  
+                System.Net.Sockets.TcpClient client = new System.Net.Sockets.TcpClient("127.0.0.1", 1234); // Create a new connection  
                 NetworkStream stream = client.GetStream();
 
                 for (int i = 0; i < 10; i++)
